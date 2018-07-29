@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>philippejer.MSTestExtensionsAnnotations</id>
+        <version>$version$</version>
+        <title>MSTestExtensions Resharper Annotations</title>
+        <authors>Jeremy Philippe</authors>
+        <projectUrl>https://github.com/philippejer/MSTestExtensionsAnnotations</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Resharper annotations for the MSTestExtensions package.</description>
+        <summary>Resharper annotations for the MSTestExtensions package.</summary>
+        <tags>Resharper Annotations MSTest MSTestExtensions Assert</tags>
+        <dependencies>
+            <dependency id="Wave" version="1.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="annotations\**\*.xml" target="DotFiles\Extensions\philippejer.MSTestExtensionsAnnotations\annotations\" />
+    </files>    
+</package>

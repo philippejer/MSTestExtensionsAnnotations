@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly name="MSTestExtensions, Version=1.0.0.0">
+  
+  <member name="M:MSTestExtensions.MsTestAssertions.IsTrue(MSTestExtensions.IAssertion,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;halt</argument>
+    </attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.IsTrue(MSTestExtensions.IAssertion,System.Boolean,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:false=&gt;halt</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.IsFalse(MSTestExtensions.IAssertion,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:true=&gt;halt</argument>
+    </attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.IsFalse(MSTestExtensions.IAssertion,System.Boolean,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>condition:true=&gt;halt</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.IsNull(MSTestExtensions.IAssertion,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>value:notnull=&gt;halt</argument>
+    </attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.IsNull(MSTestExtensions.IAssertion,System.Object,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>value:notnull=&gt;halt</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.IsNotNull(MSTestExtensions.IAssertion,System.Object)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>value:null=&gt;halt</argument>
+    </attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.IsNotNull(MSTestExtensions.IAssertion,System.Object,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>value:null=&gt;halt</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  
+  <member name="M:MSTestExtensions.MsTestAssertions.AreSame(MSTestExtensions.IAssertion,System.Object,System.Object,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+ 
+  <member name="M:MSTestExtensions.MsTestAssertions.AreNotSame(MSTestExtensions.IAssertion,System.Object,System.Object,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.AreEqual``1(MSTestExtensions.IAssertion,``0,``0,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.AreNotEqual``1(MSTestExtensions.IAssertion,``0,``0,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.AreEqual(MSTestExtensions.IAssertion,System.Object,System.Object,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.AreNotEqual(MSTestExtensions.IAssertion,System.Object,System.Object,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.AreEqual(MSTestExtensions.IAssertion,System.Single,System.Single,System.Single,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.AreNotEqual(MSTestExtensions.IAssertion,System.Single,System.Single,System.Single,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.AreEqual(MSTestExtensions.IAssertion,System.Double,System.Double,System.Double,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.AreNotEqual(MSTestExtensions.IAssertion,System.Double,System.Double,System.Double,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.AreEqual(MSTestExtensions.IAssertion,System.String,System.String,System.Boolean,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.AreEqual(MSTestExtensions.IAssertion,System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.AreNotEqual(MSTestExtensions.IAssertion,System.String,System.String,System.Boolean,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.AreNotEqual(MSTestExtensions.IAssertion,System.String,System.String,System.Boolean,System.Globalization.CultureInfo,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.IsInstanceOfType(MSTestExtensions.IAssertion,System.Object,System.Type,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.IsNotInstanceOfType(MSTestExtensions.IAssertion,System.Object,System.Type,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.Fail(MSTestExtensions.IAssertion)">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.Fail(MSTestExtensions.IAssertion,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.AssertionMethodAttribute.#ctor"/>
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.Inconclusive(MSTestExtensions.IAssertion)">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+  </member>
+
+  <member name="M:MSTestExtensions.MsTestAssertions.Inconclusive(MSTestExtensions.IAssertion,System.String,System.Object[])">
+    <attribute ctor="M:JetBrains.Annotations.ContractAnnotationAttribute.#ctor(System.String)">
+        <argument>=&gt;halt</argument>
+    </attribute>
+    <attribute ctor="M:JetBrains.Annotations.StringFormatMethodAttribute.#ctor(System.String)"><argument>message</argument></attribute>
+  </member>
+  
+</assembly>
